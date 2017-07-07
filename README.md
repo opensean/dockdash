@@ -71,7 +71,7 @@ Example run in ipython3:
 
 ### tmux & tmuxinator
 
-All tmux and tmuxinator commands all available once the session has been 
+All tmux and tmuxinator commands are available once the session has been 
 started.
 
 **tmux**
