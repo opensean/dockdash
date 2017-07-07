@@ -34,7 +34,7 @@ The container names can be retrieved with the following:
 
 ```
 
-Pass the names to DockerDash to start a dashboard.  In this example, I am 
+Pass the names to DockDash to start a dashboard.  In this example, I am 
 specifying all five containers, however, one could pass any number of 
 containers.
 
@@ -43,7 +43,9 @@ Example run in ipython3:
 ```
     In [1]: from dockdash import DockDash
 
-    In [2]: d = DockDash(containers = ["focused_pasteur", "loving_curie", "xenodochial_wiles", "dazzling_fermi", "laughing_carson"])
+    In [2]: d = DockDash(containers = ["focused_pasteur", "loving_curie", 
+                                          "xenodochial_wiles", "dazzling_fermi", 
+                                          "laughing_carson"])
 
     In [3]: d.run()
 
@@ -54,7 +56,7 @@ Example run in ipython3:
 ### Or don't specify containers
 
 The same result can be achieved by not specifying any containers and letting 
-DockerDash find all running containers.
+DockDash find all running containers.
 
 Example run in ipython3:
 
