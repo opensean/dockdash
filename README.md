@@ -13,8 +13,9 @@ multiple containers simultaneously.
 Pass either a list of container names or numerical IDs to DockDash to start 
 a dashboard.
 
-In the following example I have started five containers all setup to 
-ping www.google.com by executing the following command five times:
+In the following example I have started five containers to run as background 
+processes by executing the following command five times.  All five are setup 
+up to ping www.google.com. 
 
 ```
     $ docker run -d --rm alpine:latest ping www.google.com
@@ -34,8 +35,8 @@ The container names can be retrieved with the following:
 
 ```
 
-Pass the names to DockDash to start a dashboard.  In this example, I am 
-specifying all five containers, however, one could pass any number of 
+Pass the container names to DockDash to start a dashboard.  In this example, I
+am specifying all five containers, however, one could pass any number of 
 containers.
 
 Example run in ipython3:
